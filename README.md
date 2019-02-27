@@ -30,28 +30,8 @@ User's messaging capability
 Show user's with the most pitches upvotes
 Multiple language support using flask-babel
 
-Specifications
-Specifications file
+## Specifications
 
-Quickstart
-usage: manage.py [-?]
-{shell,insert_fake_data,db,insert_initial_data,server,dbshell,test,runserver}
-...
-
-positional arguments:
-{shell,insert_fake_data,db,insert_initial_data,server,dbshell,test,runserver}
-shell Runs a Python shell inside Flask application context.
-insert_fake_data Adds fake data to database.
-db Perform database migrations
-insert_initial_data
-Adds initial data to database.
-server Runs the Flask development server i.e. app.run()
-dbshell Run DB shell.
-test Run the unit tests.
-runserver Runs the Flask development server i.e. app.run()
-
-optional arguments:
--?, --help show this help message and exit
 Setup
 Requirements
 This project was created on a debian linux platform but should work on other unix based[not limited to] sytems.
@@ -59,7 +39,7 @@ This project was created on a debian linux platform but should work on other uni
 Tested on Debian Linux
 Python 2.7
 Cloning the repository
-git clone https://github.com/jakhax/pitches.git && cd pitches
+git clone https://github.com/CarineIzere/Pitch.git && cd pitches
 Creating a virtual environment
 python2.7 -m virtualenv virtual-pitches
 source virtual-pitches/bin/activate
