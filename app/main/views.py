@@ -13,7 +13,7 @@ def index():
     '''
     landing page
     '''
-    title = 'Minutepitch'
+    title = 'Minute pitch'
     category = Category.get_category()
 
     return render_template('index.html', title = title,category=category)
