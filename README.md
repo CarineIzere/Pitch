@@ -70,6 +70,7 @@
         - HTML, CSS and Bootstrap
         - JavaScript
         - Git
+        - Postgres db
 
 ## License
 
